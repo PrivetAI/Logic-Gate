@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001E674DD9599D9BD019DCE7 /* ChipLibraryTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873BD524B61FDF8F901E1D7 /* ChipLibraryTab.swift */; };
+		01C9D270A22D21547AFB7606 /* ChaptersOneTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF3900CD74EC890B9716E7 /* ChaptersOneTwo.swift */; };
+		0DA810E1EB5441F1810ED119 /* LevelMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1E6358E574ADF371A6B39 /* LevelMaker.swift */; };
+		0E30CF36D35C290A3E55D68C /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B149E218DDFB2C41E22CB2F /* LevelModel.swift */; };
+		1102C69B0F1F37481197E9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DB462D50AEC51CDCBBC03C /* Assets.xcassets */; };
+		1326EF193199D8AB2BC488CA /* ChapterSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C67D6E75FE30C200BF8CDD /* ChapterSeven.swift */; };
+		18A671D07580F15740350E72 /* LogicGateLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DEE593DB850DC87A97791 /* LogicGateLoadingScreen.swift */; };
+		42914A16BF1AB09D83968902 /* Glyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9AA7CC42CB256443D3976 /* Glyphs.swift */; };
+		44F10A0E011C0ABCF8C9B122 /* NetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9D1691480E09253C3081B1 /* NetBuilder.swift */; };
+		5164ABEA7B222A580AE63F6D /* GateArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A678217922C0DD236710 /* GateArt.swift */; };
+		5326C09EEA16D3216138312E /* KarnaughWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9776C56CD846CE732E60F4 /* KarnaughWidget.swift */; };
+		562D5D261275AB2D3ED6F8C1 /* LogicGateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A37FB219FA241C728A181B /* LogicGateApp.swift */; };
+		5D53163D514BBC6869A54287 /* ReferenceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB6A55AE98B4621EC8EA45 /* ReferenceTab.swift */; };
+		5DDAF2D7AC1917527A66E310 /* SandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5E7213C5F2F2ADD8D53D6 /* SandboxView.swift */; };
+		611EBA2A3E76EB4EA3607485 /* BenchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8247BA93D1D130E9B0F107 /* BenchViewModel.swift */; };
+		6628CB1F9620BA4F5F5B3406 /* LogicGateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D9BE9E491063DF15134AE /* LogicGateStore.swift */; };
+		7BE49932F82325809A3DCB4B /* ChapterSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB07F246E1E661DF2C120FF5 /* ChapterSix.swift */; };
+		9962F02AD54949B3887C941D /* LogicGateWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC99E2806F7433CA90892D /* LogicGateWebPanel.swift */; };
+		AED2BA76E4043C104FB093D8 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72870CDC203B7CCBEAED6F59 /* BoardView.swift */; };
+		B80066D643F68B5CE1DDDEC0 /* MoreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD45A148903349F5A83D4B9 /* MoreTab.swift */; };
+		BA993498CEDD4BBC35ED8EAD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0209C448B94CC4779AD66 /* Theme.swift */; };
+		C6E92361D2682E2BF8657384 /* CircuitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD102DDBC2D8A27B903397E /* CircuitModel.swift */; };
+		D432601DCA6E4E3DAD3C7DEF /* TimingDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381619F29D52E8FE945F8FD /* TimingDiagramView.swift */; };
+		D890F47CC03F0EE38ADFCBAE /* ChapterFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ABF4DE8491F816D30FCCF0 /* ChapterFive.swift */; };
+		E825A69EBAE760758B702E54 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C917B9955B44DAEB4C582DA /* RootView.swift */; };
+		E843B22471081CCE773C66CC /* ChaptersThreeFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B331A1DFAF887F7707B41 /* ChaptersThreeFour.swift */; };
+		EB4527FC47D5A7C56E757DCB /* WorkbenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6443ECA030E3D37CD64AB8A /* WorkbenchView.swift */; };
+		F09FD2E4F346229E4301D2F7 /* TruthTablePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D155A31B9FD27D6DD3688E7 /* TruthTablePanel.swift */; };
+		F688E6CF786B330868BEC4BF /* ChaptersTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747113A672ECAA66FB01D955 /* ChaptersTab.swift */; };
+		FC727569E5C4DA9EC7873B3D /* CircuitSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15F6FD9FD9E9027020954D /* CircuitSimulator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08EC99E2806F7433CA90892D /* LogicGateWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGateWebPanel.swift; sourceTree = "<group>"; };
+		0C917B9955B44DAEB4C582DA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1FD102DDBC2D8A27B903397E /* CircuitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitModel.swift; sourceTree = "<group>"; };
+		25ABF4DE8491F816D30FCCF0 /* ChapterFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFive.swift; sourceTree = "<group>"; };
+		27AF3900CD74EC890B9716E7 /* ChaptersOneTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersOneTwo.swift; sourceTree = "<group>"; };
+		32DB462D50AEC51CDCBBC03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3381619F29D52E8FE945F8FD /* TimingDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingDiagramView.swift; sourceTree = "<group>"; };
+		4873BD524B61FDF8F901E1D7 /* ChipLibraryTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipLibraryTab.swift; sourceTree = "<group>"; };
+		4ACB6A55AE98B4621EC8EA45 /* ReferenceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTab.swift; sourceTree = "<group>"; };
+		4E9D1691480E09253C3081B1 /* NetBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetBuilder.swift; sourceTree = "<group>"; };
+		50E1E6358E574ADF371A6B39 /* LevelMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelMaker.swift; sourceTree = "<group>"; };
+		6D155A31B9FD27D6DD3688E7 /* TruthTablePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthTablePanel.swift; sourceTree = "<group>"; };
+		72870CDC203B7CCBEAED6F59 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		738B331A1DFAF887F7707B41 /* ChaptersThreeFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersThreeFour.swift; sourceTree = "<group>"; };
+		747113A672ECAA66FB01D955 /* ChaptersTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersTab.swift; sourceTree = "<group>"; };
+		82C9AA7CC42CB256443D3976 /* Glyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyphs.swift; sourceTree = "<group>"; };
+		8B149E218DDFB2C41E22CB2F /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		8C8247BA93D1D130E9B0F107 /* BenchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchViewModel.swift; sourceTree = "<group>"; };
+		9B5DEE593DB850DC87A97791 /* LogicGateLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGateLoadingScreen.swift; sourceTree = "<group>"; };
+		A0C0209C448B94CC4779AD66 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A6443ECA030E3D37CD64AB8A /* WorkbenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkbenchView.swift; sourceTree = "<group>"; };
+		ABD45A148903349F5A83D4B9 /* MoreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTab.swift; sourceTree = "<group>"; };
+		ACE8A678217922C0DD236710 /* GateArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateArt.swift; sourceTree = "<group>"; };
+		AD15F6FD9FD9E9027020954D /* CircuitSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitSimulator.swift; sourceTree = "<group>"; };
+		B2B5E7213C5F2F2ADD8D53D6 /* SandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxView.swift; sourceTree = "<group>"; };
+		BA9776C56CD846CE732E60F4 /* KarnaughWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarnaughWidget.swift; sourceTree = "<group>"; };
+		D7A37FB219FA241C728A181B /* LogicGateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGateApp.swift; sourceTree = "<group>"; };
+		DB07F246E1E661DF2C120FF5 /* ChapterSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSix.swift; sourceTree = "<group>"; };
+		E5C67D6E75FE30C200BF8CDD /* ChapterSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSeven.swift; sourceTree = "<group>"; };
+		EE8C0DBD5B018816559EAE83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F00A75AC2BD46091C7F3E3BA /* Logic Gate.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Logic Gate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72D9BE9E491063DF15134AE /* LogicGateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGateStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		575C697ECB6559EE71C46C1E /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				25ABF4DE8491F816D30FCCF0 /* ChapterFive.swift */,
+				E5C67D6E75FE30C200BF8CDD /* ChapterSeven.swift */,
+				DB07F246E1E661DF2C120FF5 /* ChapterSix.swift */,
+				27AF3900CD74EC890B9716E7 /* ChaptersOneTwo.swift */,
+				738B331A1DFAF887F7707B41 /* ChaptersThreeFour.swift */,
+				50E1E6358E574ADF371A6B39 /* LevelMaker.swift */,
+				8B149E218DDFB2C41E22CB2F /* LevelModel.swift */,
+				4E9D1691480E09253C3081B1 /* NetBuilder.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		7CEB79B0808AB486E4D43C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00A75AC2BD46091C7F3E3BA /* Logic Gate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958AC4362CCAD3C34DECC307 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8C8247BA93D1D130E9B0F107 /* BenchViewModel.swift */,
+				72870CDC203B7CCBEAED6F59 /* BoardView.swift */,
+				747113A672ECAA66FB01D955 /* ChaptersTab.swift */,
+				4873BD524B61FDF8F901E1D7 /* ChipLibraryTab.swift */,
+				ACE8A678217922C0DD236710 /* GateArt.swift */,
+				9B5DEE593DB850DC87A97791 /* LogicGateLoadingScreen.swift */,
+				08EC99E2806F7433CA90892D /* LogicGateWebPanel.swift */,
+				82C9AA7CC42CB256443D3976 /* Glyphs.swift */,
+				BA9776C56CD846CE732E60F4 /* KarnaughWidget.swift */,
+				ABD45A148903349F5A83D4B9 /* MoreTab.swift */,
+				4ACB6A55AE98B4621EC8EA45 /* ReferenceTab.swift */,
+				0C917B9955B44DAEB4C582DA /* RootView.swift */,
+				B2B5E7213C5F2F2ADD8D53D6 /* SandboxView.swift */,
+				A0C0209C448B94CC4779AD66 /* Theme.swift */,
+				3381619F29D52E8FE945F8FD /* TimingDiagramView.swift */,
+				6D155A31B9FD27D6DD3688E7 /* TruthTablePanel.swift */,
+				A6443ECA030E3D37CD64AB8A /* WorkbenchView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A3BE3E051FBE6C0EE50ACB30 = {
+			isa = PBXGroup;
+			children = (
+				B168065924AE59D0A7BAEDF4 /* Logic Gate */,
+				7CEB79B0808AB486E4D43C77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B168065924AE59D0A7BAEDF4 /* Logic Gate */ = {
+			isa = PBXGroup;
+			children = (
+				32DB462D50AEC51CDCBBC03C /* Assets.xcassets */,
+				EE8C0DBD5B018816559EAE83 /* Info.plist */,
+				D7A37FB219FA241C728A181B /* LogicGateApp.swift */,
+				C874C800A1FB0DD0665FB537 /* Engine */,
+				575C697ECB6559EE71C46C1E /* Levels */,
+				958AC4362CCAD3C34DECC307 /* UI */,
+			);
+			path = "Logic Gate";
+			sourceTree = "<group>";
+		};
+		C874C800A1FB0DD0665FB537 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1FD102DDBC2D8A27B903397E /* CircuitModel.swift */,
+				AD15F6FD9FD9E9027020954D /* CircuitSimulator.swift */,
+				F72D9BE9E491063DF15134AE /* LogicGateStore.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C27BB3354D794369489D408 /* Logic Gate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA5D4D4317E0871F00B1964 /* Build configuration list for PBXNativeTarget "Logic Gate" */;
+			buildPhases = (
+				C3F555C430FD25E9104258A7 /* Sources */,
+				0D5C2ABDF5BB803A38BBD167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logic Gate";
+			packageProductDependencies = (
+			);
+			productName = "Logic Gate";
+			productReference = F00A75AC2BD46091C7F3E3BA /* Logic Gate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EA6502D699526A7E2080A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4C27BB3354D794369489D408 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 298D9A0079983F397E7256ED /* Build configuration list for PBXProject "Logic Gate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A3BE3E051FBE6C0EE50ACB30;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7CEB79B0808AB486E4D43C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C27BB3354D794369489D408 /* Logic Gate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5C2ABDF5BB803A38BBD167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1102C69B0F1F37481197E9AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F555C430FD25E9104258A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611EBA2A3E76EB4EA3607485 /* BenchViewModel.swift in Sources */,
+				AED2BA76E4043C104FB093D8 /* BoardView.swift in Sources */,
+				D890F47CC03F0EE38ADFCBAE /* ChapterFive.swift in Sources */,
+				1326EF193199D8AB2BC488CA /* ChapterSeven.swift in Sources */,
+				7BE49932F82325809A3DCB4B /* ChapterSix.swift in Sources */,
+				01C9D270A22D21547AFB7606 /* ChaptersOneTwo.swift in Sources */,
+				F688E6CF786B330868BEC4BF /* ChaptersTab.swift in Sources */,
+				E843B22471081CCE773C66CC /* ChaptersThreeFour.swift in Sources */,
+				001E674DD9599D9BD019DCE7 /* ChipLibraryTab.swift in Sources */,
+				C6E92361D2682E2BF8657384 /* CircuitModel.swift in Sources */,
+				FC727569E5C4DA9EC7873B3D /* CircuitSimulator.swift in Sources */,
+				5164ABEA7B222A580AE63F6D /* GateArt.swift in Sources */,
+				18A671D07580F15740350E72 /* LogicGateLoadingScreen.swift in Sources */,
+				9962F02AD54949B3887C941D /* LogicGateWebPanel.swift in Sources */,
+				42914A16BF1AB09D83968902 /* Glyphs.swift in Sources */,
+				5326C09EEA16D3216138312E /* KarnaughWidget.swift in Sources */,
+				0DA810E1EB5441F1810ED119 /* LevelMaker.swift in Sources */,
+				0E30CF36D35C290A3E55D68C /* LevelModel.swift in Sources */,
+				562D5D261275AB2D3ED6F8C1 /* LogicGateApp.swift in Sources */,
+				B80066D643F68B5CE1DDDEC0 /* MoreTab.swift in Sources */,
+				44F10A0E011C0ABCF8C9B122 /* NetBuilder.swift in Sources */,
+				5D53163D514BBC6869A54287 /* ReferenceTab.swift in Sources */,
+				E825A69EBAE760758B702E54 /* RootView.swift in Sources */,
+				5DDAF2D7AC1917527A66E310 /* SandboxView.swift in Sources */,
+				BA993498CEDD4BBC35ED8EAD /* Theme.swift in Sources */,
+				D432601DCA6E4E3DAD3C7DEF /* TimingDiagramView.swift in Sources */,
+				F09FD2E4F346229E4301D2F7 /* TruthTablePanel.swift in Sources */,
+				EB4527FC47D5A7C56E757DCB /* WorkbenchView.swift in Sources */,
+				6628CB1F9620BA4F5F5B3406 /* LogicGateStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CF49F4854A655D810D57593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Logic Gate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logicgate.app;
+				PRODUCT_NAME = "Logic Gate";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		71698144DDC64D4060A8D302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Logic Gate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logicgate.app;
+				PRODUCT_NAME = "Logic Gate";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D9BF03EFFA7DE044CC190F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0A013FC8F28406EA40E5CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298D9A0079983F397E7256ED /* Build configuration list for PBXProject "Logic Gate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9BF03EFFA7DE044CC190F5 /* Debug */,
+				E0A013FC8F28406EA40E5CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBA5D4D4317E0871F00B1964 /* Build configuration list for PBXNativeTarget "Logic Gate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71698144DDC64D4060A8D302 /* Debug */,
+				1CF49F4854A655D810D57593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EA6502D699526A7E2080A5 /* Project object */;
+}
