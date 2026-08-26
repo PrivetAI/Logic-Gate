@@ -1,0 +1,47 @@
+workflows:
+  ios-native-quick-start:
+    name: iOS Native
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: 'Logic Gate'
+    environment:
+      # ios_signing здесь намеренно нет: он резолвит профиль из хранилища
+      # Codemagic и падает с «No matching profiles found», а загрузить туда
+      # .mobileprovision через интерфейс невозможно. Подпись делаем скриптами.
+      vars:
+        BUNDLE_ID: "com.barboraprochazkova.logicgate"
+        XCODE_WORKSPACE: "Logic Gate.xcodeproj"
+        XCODE_SCHEME: "Logic Gate"
+        APP_STORE_APPLE_ID: 6805442481
+      xcode: latest
+    scripts:
+      - name: Set up keychain
+        script: keychain initialize
+      - name: Fetch signing files
+        script: |
+          # Ключ для сертификата создаём прямо в сборке, чтобы не хранить его
+          # ни в репозитории, ни в переменных Codemagic. Обратная сторона:
+          # каждая сборка выпускает новый distribution-сертификат, а у Apple
+          # их лимит два на аккаунт — лишние отзывать вручную в портале.
+          openssl genrsa 2048 | openssl pkcs8 -topk8 -nocrypt -out /tmp/signing_key.pem
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --certificate-key=@file:/tmp/signing_key.pem \
+            --create
+      - name: Add certificates to keychain
+        script: keychain add-certificates
+      - name: Set up provisioning profiles settings on Xcode project
+        script: xcode-project use-profiles
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
